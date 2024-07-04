@@ -14,6 +14,7 @@ Clone the repository
 
 ```
 git clone git@github.com:roc41d/rippler-frontend-assessment.git
+
 ```
 
 Switch to project folder

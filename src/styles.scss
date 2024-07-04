@@ -1,1 +1,116 @@
 /* You can add global styles to this file, and also import other style files */
+html,
+body {
+  margin: 0;
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
+}
+
+.header {
+  display: flex;
+  height: 72px;
+  justify-content: end;
+  align-items: center;
+  padding: 0 12px;
+}
+
+.header .img {
+  width: 24px;
+  height: 24px;
+}
+
+.item-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 0 36px;
+  justify-content: center;
+}
+
+.item-card {
+  flex: 0 1 calc(20% - 1em);
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.item-card-content:hover {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.item-card-image .img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.content-rrp {
+  color: #898989;
+  font-size: 12px;
+  margin: 0 0 7px 0;
+}
+
+.content-name {
+  font-size: 18px;
+  color: #141414;
+  line-height: 1.56;
+  font-weight: 600;
+}
+
+.content-brand {
+  color: #a8917f;
+}
+
+.content-default {
+  font-size: 16px;
+  margin: 7px 0;
+  text-align: left;
+  color: #383838;
+}
+
+@media (min-width: 1024px) {
+  .item-card {
+    flex: 0 1 calc(20% - 1em);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .item-card {
+    flex: 0 1 calc(25% - 1em);
+  }
+}
+
+@media (max-width: 767px) {
+  .item-card {
+    flex: 0 1 calc(50% - 1em);
+  }
+}
+
+@media (max-width: 480px) {
+  .item-container {
+    flex-direction: column;
+  }
+  .item-card {
+    flex: 0 1 calc(100% - 1em);
+  }
+
+  .content-rrp {
+    font-size: 16px;
+  }
+
+  .content-name {
+    font-size: 22px;
+  }
+
+  .content-default {
+    font-size: 20px;
+  }
+
+  .header .img {
+    width: 28px;
+    height: 28px;
+  }
+}

@@ -9,7 +9,7 @@ import { CurrencyPipe } from '@angular/common';
   template: `
     <div class="item-card">
       <div class="item-card-image">
-        <img class="img" src="img/{{ item.image }}" alt="" />
+        <img class="img" src="img/{{ item.image }}" alt="{{ item.name }}" />
       </div>
       <div class="item-card-content">
         <p class="content-rrp">RRP {{ item.rrp | currency : 'GBP' }}</p>
@@ -18,7 +18,9 @@ import { CurrencyPipe } from '@angular/common';
           {{ item.name }}
         </div>
         <p class="content-default">Size {{ item.size }}</p>
-        <p class="content-default">{{ item.rentalPrice | currency : 'GBP' }} Rental</p>
+        <p class="content-default">
+          {{ item.rentalPrice | currency : 'GBP' }} Rental
+        </p>
       </div>
     </div>
   `,

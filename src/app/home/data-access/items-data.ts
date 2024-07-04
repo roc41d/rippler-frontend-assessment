@@ -8,7 +8,7 @@ export const ITEMS: Item[] = [
     name: 'Flowy Dress with pink and gold',
     size: 4,
     rentalPrice: 12.0,
-    image: 'Image-Master-4.png',
+    image: 'Image-Master-1.png',
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ export const ITEMS: Item[] = [
     name: 'Beach dress',
     size: 8,
     rentalPrice: 12.0,
-    image: 'Image-Master-1.png',
+    image: 'Image-Master-2.png',
   },
   {
     id: 1,
@@ -26,7 +26,7 @@ export const ITEMS: Item[] = [
     name: 'Red dress for evening wear',
     size: 12,
     rentalPrice: 12.0,
-    image: 'Image-Master-2.png',
+    image: 'Image-Master-3.png',
   },
   {
     id: 1,
@@ -35,7 +35,7 @@ export const ITEMS: Item[] = [
     name: 'Wedding guest',
     size: 12,
     rentalPrice: 12.0,
-    image: 'Image-Master-3.png',
+    image: 'Image-Master-4.png',
   },
   {
     id: 1,
@@ -44,7 +44,7 @@ export const ITEMS: Item[] = [
     name: 'Nightwear',
     size: 14,
     rentalPrice: 12.0,
-    image: 'Image-Master-4.png',
+    image: 'Image-Master-5.png',
   },
   {
     id: 1,
@@ -53,6 +53,6 @@ export const ITEMS: Item[] = [
     name: 'Summer dress',
     size: 8,
     rentalPrice: 12.0,
-    image: 'Image-Master-5.png',
+    image: 'Image-Master-6.png',
   },
 ];
